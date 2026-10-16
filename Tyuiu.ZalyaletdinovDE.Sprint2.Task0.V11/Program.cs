@@ -7,8 +7,8 @@ namespace Tyuiu.ZalyaletdinovDE.Sprint2.Task0.V11
         {
             DataService ds = new DataService();
 
-            int x = 15;
-            int y = 16;
+            int x = 8105;
+            int y = 275;
             bool[] res = ds.GetCompareOperations(x, y);
 
             Console.WriteLine("********************************************************************************************");
