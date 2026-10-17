@@ -29,7 +29,7 @@ namespace Tyuiu.ZalyaletdinovDE.Sprint2.Task6.V9.Lib
                 m++;
             }
 
-            return $"{n}.{m}";
+            return $"{n:D2}.{m:D2}";
         }
     }
 }
