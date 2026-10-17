@@ -6,7 +6,7 @@ namespace Tyuiu.ZalyaletdinovDE.Sprint2.Task7.V2.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            bool res = (Math.Pow(x, 2) + Math.Pow(y, 2) <= 1) && (y <= x / 2.0);
+            bool res = (x*x + y*y <= 1) && (y <= x / 2.0);
             return res;
         }
     }
